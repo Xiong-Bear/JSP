@@ -161,7 +161,6 @@ insert into reader  values(2018717,'2018717','ÕÅ´óÍ·','ÄĞ','¹«¹²¹ÜÀíÑ§Ôº','¹«¹²Ê
 insert into reader  values(2018718,'2018718','ĞÁÒÄÎë','Å®','ÎÄÑ§Ôº','ººÓïÑÔÎÄÑ§');
 insert into reader  values(2018719,'2018719','Áõ»ğÍ¬','ÄĞ','·¨Ñ§Ôº','·¨Ñ§');
 insert into reader  values(2018720,'2018720','ÁõĞ¡Ìì','ÄĞ','Ò©Ñ§Ôº','Ò©Ñ§');
-insert into reader  values(2017756,'2017756','ĞÜñ´ºÀ','ÄĞ','Èí¼şÓëÓ¦ÓÃ¿Æ¼¼Ñ§Ôº','Èí¼ş¹¤³Ì');
 /* 
 insert into reader values(,'','','','','');
 insert into reader values(,'','','','','');

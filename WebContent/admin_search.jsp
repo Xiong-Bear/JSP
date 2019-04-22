@@ -194,7 +194,7 @@ if(rs4.next()){
 <h2><font color="red"> <%=search %> </font>无借阅信息查询记录</h2>
 <% }%>
 <div id="footer">
-		<i>Designed by 20177720756熊翊豪.</i>
+		<i>Designed by Xiong-Bear.</i>
 		<footer>&copy;&nbsp;&nbsp;&nbsp;&nbsp;郑州市金水区文化路97号郑州大学北校区</footer>
 </div>
 </body>
