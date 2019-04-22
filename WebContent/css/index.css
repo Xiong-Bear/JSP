@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:	#b0e0e6/*url(images/zzu1.jpg)no-repeat fixed*/;
+	background-size:cover;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+
+#nav {
+	border-radius: 35px;
+	background:  #f8f8ff;
+	opacity: 0.6;
+	color:blue;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	border: dotted lightblue 1px;
+	margin-bottom: 40px;
+}
+nav:a {
+	text-decoration: none;
+}
+.nav {
+	border-radius: 35px;
+	background: #f8f8ff;
+	opacity: 0.6;
+	color:blue;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	border: dotted lightblue 1px;
+	margin-bottom: 40px;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: orangered;
+}
+a:visited {
+color:#800080;
+}
+span {
+	padding: 45px;
+	font-size: 35px;
+}
+#main {
+	align:center;
+	border:1px black black;
+	border-radius: 35px;
+	width:1500px;
+	hight:auto;
+}
+#login {
+	padding:20px;
+	font-size:25px;
+	text-align: right;
+}
+font {
+	color:blue;
+}
+#search {
+	margin:20px;
+	border:1px black solid;
+	border-radius: 35px;
+	height:30px;
+	font-size:15px;
+	width:600px;
+	
+}
+
+#insert {
+	padding:15px;
+	margin:30px;
+	font-size:25px;
+	text-align: left;
+	text-decoration: black 1px solid;
+	width:1400px;
+	hight:auto;
+}
+.insert {
+	padding-left:570px; 
+	text-decoration: black 1px solid;
+
+}
+
+#footer {
+	align-content:center;
+	width:1510px;
+	text-align: center;
+	color:lightgrey;
+	background: grey;
+	opacity: 0.8;
+	border-radius: 10px;
+	position:fixed;
+    bottom:0px;
+}
+
+
+

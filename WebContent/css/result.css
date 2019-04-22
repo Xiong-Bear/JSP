@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:	#b0e0e6/*url(images/zzu1.jpg)no-repeat fixed*/;
+	background-size:cover;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+
+#nav {
+	border-radius: 35px;
+	background: lightblue;
+	opacity: 0.6;
+	color:#00BBFF;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	border: dotted lightblue 1px;
+	margin-bottom: 40px;
+}
+a {
+	color: aqua;
+	text-decoration: none;
+}
+a:link {
+	color:	#800080;
+}
+a:hover {
+	color: orangered;
+}
+span {
+	padding: 45px;
+	font-size: 35px;
+}
+#main {
+	align:center;
+	border:1px black black;
+	border-radius: 35px;
+	width:1500px;
+	hight:auto;
+}
+#footer {
+	align-content:center;
+	width:1500px;
+	text-align: center;
+	color:lightgrey;
+	background: grey;
+	opacity: 0.8;
+	border-radius: 10px;
+	position:fixed;
+    bottom:0px;
+}

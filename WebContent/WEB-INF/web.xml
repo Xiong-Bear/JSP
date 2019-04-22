@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<web-app>
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>zzu.LoginFilter</filter-class>
+	</filter>
+	
+	<filter>
+		<filter-name>ressetpassFilter</filter-name>
+		<filter-class>zzu.ResetPassFilter</filter-class>
+	</filter>
+	
+	<filter>
+			<filter-name>AdminLoginFilter</filter-name>
+			<filter-class>zzu.AdminLoginFilter</filter-class>
+	</filter>	
+	
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/index.jsp</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	
+
+
+	<filter-mapping>
+			<filter-name>AdminLoginFilter</filter-name>
+			<url-pattern>/admin_index.jsp</url-pattern>
+			<dispatcher>REQUEST</dispatcher>
+			<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>	
+
+	<filter-mapping>
+		<filter-name>ressetpassFilter</filter-name>
+		<url-pattern>/repass_result.jsp</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+
+</web-app>
